@@ -2,7 +2,7 @@ class Dog
   attr_accessor :name
   @@all = []
 
-  def clear_all
+  def self.clear_all
     @@all = []
   end
 
