@@ -3,10 +3,10 @@ class Dog
   @@all = []
 
   def clear_all
-    self.@@all = []
+    @@all = []
   end
 
-  def all 
+  def all
     @@all.each do |dog|
       puts dog.@name
     end
