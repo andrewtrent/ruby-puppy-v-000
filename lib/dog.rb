@@ -6,13 +6,13 @@ class Dog
     @@all = []
   end
 
-  def all
+  def self.all
     @@all.each do |dog|
       puts dog.name
     end
   end
 
-  def new(name)
+  def self.new(name)
     @name = name
     @@all << self
   end
