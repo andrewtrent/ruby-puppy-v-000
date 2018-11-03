@@ -12,7 +12,7 @@ class Dog
     end
   end
 
-  def self.new(name)
+  def initialize(name)
     @name = name
     @@all << self
   end
